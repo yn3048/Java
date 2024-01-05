@@ -7,7 +7,8 @@ interface Buyer {
 interface Seller {
 	public void sell();
 }
-
+//interface => 특수 class, 아무런 구현이 되어있지 않고 모든 메소드가 추상 메소드이다
+//interface는 implements하고 여러개 클래스 구현가능
 class Customers implements Buyer, Seller  {
 	
 	@Override

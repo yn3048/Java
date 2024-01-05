@@ -2,7 +2,7 @@ package Test3;
 
 
 class Student {
-	public static int studentId;
+	public static int studentId; // Student 클래스 직접참조=>정적변수(static) => 주로 public
 	private String studentName;
 	private String major;
 	private int grade;

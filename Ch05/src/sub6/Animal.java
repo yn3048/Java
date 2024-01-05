@@ -8,3 +8,4 @@ public class Animal {
 	
 	public void hunt() {}
 }
+

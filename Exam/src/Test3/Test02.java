@@ -6,7 +6,7 @@ class King {
 	private int year;
 	
 	public King(int year) {
-		this("정조");
+		this("정조"); //밑에있는 문자열 생성자 호출 
 		this.year = year;
 	} //생성자는 리턴값이 없다. void는 리턴 하지 않는다는 리턴 값이다.
 	

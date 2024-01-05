@@ -39,7 +39,7 @@ class VipCustomer extends Customer  {
 	
 	public VipCustomer(int id, String name) {
 		super(id, name);
-		super.grade = "VIP";
+		super.grade = "VIP"; //직접 참조 =>private 을 proteceted 로 바꿔서 참조가능하게함 
 		super.point = 1000;
 		super.pointRatio = 0.05;
 		this.saleRatio = 0.1;

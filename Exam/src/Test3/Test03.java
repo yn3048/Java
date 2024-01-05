@@ -8,8 +8,8 @@ class Car{
 	
 	public Car(String brand, String name, int price) {
 		this.brand = brand;
-		this.name = name;
-		this.price = price;
+		this.name = name;   
+		this.price = price;  //Car라는 생성자 속성 초기화
 	}
 	
 	public void drive() {
@@ -26,8 +26,8 @@ class Car{
 public class Test03 {
 	public static void main(String[] args) {
 		
-		Car sonata = null;
-		Car bmw    = null;
+		Car sonata = null; //참조변수 초기화
+		Car bmw    = null; //참조변수 초기화
 		
 		sonata = new Car("현대","소나타",3000); 
 		bmw	   = new Car("BMW","520d",5000);

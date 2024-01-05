@@ -23,7 +23,7 @@ class CarFactory {
 	
 	public static CarFactory getInstance() {
 		return instance;
-	}
+	} //싱글톤 패턴 private로 막힌 CarFactory 객체를 getInstance로 리턴
 	
 	public Vehicle createCar(String name, int price) {
 		return new Vehicle(name, price);

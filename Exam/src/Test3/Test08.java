@@ -47,8 +47,8 @@ class Computer extends Product {
 public class Test08 {
 	public static void main(String[] args) {
 		
-		Television p1 = new Television("가전", 100);
-		Computer p2 = new Computer("컴퓨터", 100);
+		Product p1 = new Television("가전", 100); //Television 해도 되지만 Product를 넣음으로써 다형성으로 적용
+		Product p2 = new Computer("컴퓨터", 100);  //Computer => Product
 		
 		p1.info();
 		p2.info();

@@ -7,7 +7,7 @@ class Adder {
 	public static Adder getInstance() {
 		return instance;
 	}
-	private Adder() {}
+	private Adder() {} //생성자
 	
 	private Adder(int value) {
 		y += value;
@@ -17,7 +17,7 @@ class Adder {
 	
 	public void add(int x, int y) {
 		this.x += x;
-		y++;
+		y++; //y 값은 그대로 0
 	}
 	public void add(int[] arr) {
 		this.x += arr[0];
@@ -49,7 +49,7 @@ public class Test06 {
 		a1.add(arr);
 		a1.show();
 		
-		Adder.add(a1);
+		Adder.add(a1); //클래스 이름(Adder)으로 호출 static 메서드 
 		a1.show();
 		
 		a1 = Adder.add(a1, 3);

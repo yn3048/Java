@@ -7,6 +7,6 @@ package ch08.sec08;
 public interface RemoteControl {
 
 	//추상 메소드
-	void trunOn();
-	void trunOff();
+	void turnOn();
+	void turnOff();
 }

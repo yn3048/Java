@@ -20,3 +20,5 @@ public class SmartTelevision implements RemoteControl, Searchable{
 		System.out.println(url + "을 검색합니다.");
 	}
 }
+
+

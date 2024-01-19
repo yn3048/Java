@@ -21,7 +21,7 @@ public class HashtableExample {
 			@Override
 			public void run() {
 				//엔트리 1000개 추가
-				for (int i = 1001; i<=2000; i++) {
+				for (int i = 1; i<=1000; i++) {
 					map.put(String.valueOf(i), i);
 				}
 			}

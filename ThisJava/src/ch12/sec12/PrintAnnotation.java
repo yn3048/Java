@@ -10,15 +10,12 @@ import java.lang.annotation.Target;
  * 내용 : 어노테이션 설정 정보 이용 p.558
  */
 
-
-public class PrintAnnotation {
-
 	
 	@Target({ElementType.METHOD})
 	@Retention(RetentionPolicy.RUNTIME)
-	public @interface Printannotation {
+	public @interface PrintAnnotation {
 		String value() default "-";
 		int number() default 15;	//value속성: 선의 종류   number 속성 : 출력 횟수
 	}
 	
-}
+

@@ -40,7 +40,7 @@ public class BufferExample {
 		
 		//버퍼를 사용하고 복사
 		long bufferTime =copy(bis, bos);
-		System.out.println("버퍼 사용ㅣ\t" + bufferTime + "ns");
+		System.out.println("버퍼 사용:\t" + bufferTime + "ns");
 		
 		fis.close();
 		fos.close();

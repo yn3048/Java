@@ -21,6 +21,6 @@ public class User1Thread extends Thread {
 	
 	@Override
 	public void run() {
-		calculator.setMemory1(200); 	//동기화 메소드 호출
+		calculator.setMemory1(100); 	//동기화 메소드 호출
 	}
 }

@@ -24,6 +24,7 @@ public class SelectTest {
 		 String user = "root";
 		 String pass = "1234";
 		 
+		 
 		 //결과처리용 리스트
 		 List<User1> users = new ArrayList<>();
 		 

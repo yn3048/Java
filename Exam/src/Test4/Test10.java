@@ -9,7 +9,7 @@ public class Test10 {
 	
 	public static void main(String[] args) {
 		
-		String path = "C:\\Users\\java\\Desktop\\Gugudan.txt";
+		String path = "C:\\Users\\java\\Desktop\\Gugudan.txt"; //텍스트 파일생성
 		
 		try {
 			File file = new File(path);

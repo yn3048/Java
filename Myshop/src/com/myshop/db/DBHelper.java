@@ -6,7 +6,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.List;
 
 
 
@@ -16,6 +15,7 @@ public class DBHelper {
 	protected Connection conn = null;
 	protected Statement stmt = null;
 	protected PreparedStatement psmt = null;
+	protected PreparedStatement psmtEtc = null;
 	protected ResultSet rs = null;
 		
 	
@@ -47,6 +47,9 @@ public class DBHelper {
 		}
 		if(conn != null) {
 			conn.close();
+		}
+		if(psmtEtc != null) {
+			psmtEtc.close();
 		}
 		
 	}

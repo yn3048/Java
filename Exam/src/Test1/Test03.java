@@ -6,8 +6,7 @@ public class Test03 {
 	public static void main(String[] args) {
 		int result = 0;
 		int num =1;
-		
-		//답은 나오나 이해x
+	
 		
 		result = num++; //대입 후 증가
 		System.out.println("result : " +result);
